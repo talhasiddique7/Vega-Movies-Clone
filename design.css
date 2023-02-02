@@ -1,0 +1,279 @@
+/* Container */
+body {
+  background-color: rgb(10, 17, 17);
+  padding: 5px;
+  align-items: center;
+  margin: 0;
+}
+
+.main {
+  background-color: #00000091;
+}
+.container {
+  background-color: rgb(19, 37, 31);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 5px rgb(7, 14, 71);
+}
+.container a{
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  
+}
+.btn {
+  background-color: rgb(19, 37, 31);
+  border: none;
+  margin-left: 20px;
+  margin-top: 7px;
+  font-size: 40px;
+  color: rgb(11, 255, 35);
+  cursor: pointer;
+  border: 0;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+  margin: auto;
+  cursor: pointer;
+  
+}
+.bt {
+  background-color: rgb(19, 37, 31);
+  border: 0;
+  color: rgb(11, 255, 35);
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 80px;
+  transition: transform 0.3s ease;
+}
+
+.search.active .input {
+  width: 300px;
+}
+.search.active.bt {
+  transform: translateX(198px);
+}
+.search {
+  margin-top: 20px;
+  margin-right: 20px;
+  position: relative;
+  height: 50px;
+}
+.search .input {
+  background-color: aliceblue;
+  font-size: 20px;
+  height: 10px;
+  width: 50px;
+  padding: 15px;
+  border: 0;
+  transition: width 0.3s ease;
+}
+/* tags */
+.container-1 {
+  padding: 20px;
+  text-align: center;
+  
+}
+.tags {
+  font-size: 30px;
+  font-weight: 700;
+  
+}
+.btn1 {
+  background-color: rgb(13, 232, 35);
+  width: 218px;
+  border-radius: 15%;
+  height: 50px;
+  box-shadow: 0 2px 5px red;
+  font-size: 18px;
+  font-weight: 620;
+  border: 0;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+.btn2 {
+  background-color: rgb(232, 35, 13);
+  width: 218px;
+  border-radius: 15%;
+  height: 50px;
+  border: 0;
+  box-shadow: 0 2px 5px red;
+  font-size: 18px;
+  font-weight: 620;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+.btn3 {
+  background-color: rgb(9, 144, 255);
+  width: 218px;
+  border-radius: 15%;
+  height: 50px;
+  border: 0;
+  box-shadow: 0 2px 5px red;
+  font-size: 18px;
+  font-weight: 620;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+.fa-brands fa-telegram {
+  color: rgb(0, 157, 255);
+}
+.btn4 {
+  background-color: rgb(232, 108, 13);
+  width: 218px;
+  border-radius: 15%;
+  height: 50px;
+  border: 0;
+  box-shadow: 0 2px 5px red;
+  font-size: 18px;
+  font-weight: 620;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* contaner-2 */
+.container-2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+.link {
+  font-size: 18px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #df133c;
+  box-sizing: border-box;
+  border: none;
+  text-align: center;
+  padding: 7px;
+  margin: 4px 2px;
+  display: inline-block;
+  border-radius: 15%;
+  cursor: pointer;
+  box-shadow: 0px 0px 32px -10px #fe0000;
+}
+.container-2 a {
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+}
+
+/* container-3
+         */
+.container-3 {
+  padding: 40px;
+  padding-left: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+img {
+  box-shadow: 0 1px 5px white;
+  text-align: center;
+}
+span {
+  color: rgb(249, 245, 245);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 100;
+  color: #948a8a !important;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+.container-3 a {
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(248, 238, 238);
+}
+h4 {
+  text-align: left;
+  cursor: pointer;
+}
+.m img {
+  width: 100%;
+}
+.m {
+  width: 215px;
+  height: 100%;
+  margin: 1rem;
+  position: relative;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* container-4 */
+.container-4{
+text-align: center;
+}
+.b1{
+  width:40px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+.b2{
+  width:40px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.b3{
+  width:40px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.b4{
+  width:40px;
+  height: 30px;
+  background-color: #00000091;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+.b5{
+  width:40px;
+  height: 30px;
+  background-color: #00000091;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+
